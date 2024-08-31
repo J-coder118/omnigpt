@@ -1,0 +1,42 @@
+.failure-notice-dialog {
+  font-family: "Poppins";
+  width: 592px !important;
+}
+
+.failure-notice-dialog .ant-modal-content {
+  border-radius: 5px !important;
+}
+
+.failure-notice-dialog .ant-modal-body {
+  padding: 48px 26px;
+  height: 434px !important;
+  display: flex !important;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.failure-notice-dialog .title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  color: #0f1b33;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.failure-notice-dialog .sub-title,
+.failure-notice-dialog .explain {
+  font-weight: 400;
+  color: #6e6d7a;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+}
+
+.failure-notice-dialog .btn-update-payment {
+  width: 304px;
+  height: 40px;
+  border-radius: 5px;
+}

@@ -1,0 +1,39 @@
+.welcome {
+  font-family: "Poppins";
+  padding: 50px 50px;
+}
+
+.welcome .title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 20px;
+  color: #0f1b33;
+  margin-bottom: 30px;
+}
+
+.welcome .sub-title {
+  font-size: 14px;
+  line-height: 20px;
+  color: #6e6d7a;
+  margin-bottom: 20px;
+}
+
+.welcome .btn-verify-email {
+  background: #1fc77e;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  height: 48px;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
+.welcome .explain {
+  font-size: 12px;
+  margin-bottom: 30px;
+}

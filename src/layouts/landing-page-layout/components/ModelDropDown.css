@@ -1,0 +1,28 @@
+.modal-dropdown{
+    min-width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #CCD6DE;
+    background: #FFF;
+
+    width: 300px;
+    height: 60px;
+    flex-shrink: 0;
+    box-shadow: 0px 0px 2px 0px #CCD6DE;
+
+}   
+
+.ant-select-arrow  {
+    width:  28px !important;
+    margin-top: 0px !important;
+    top : 12px !important;
+}
+.ant-select-selector {
+    display: flex;
+    align-items: center;
+}
+
+/* Override styles for the arrow icon in Ant Design's Select component */
+.ant-select-arrow, .ant-select-suffix {
+    font-size: 22px; /* Adjust this value as needed */
+}

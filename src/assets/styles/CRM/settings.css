@@ -1,0 +1,82 @@
+.s-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-info {
+  width: 40%;
+}
+
+.s-logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-logo {
+  width: 50%;
+}
+
+.s-label {
+  font-weight: bold;
+}
+
+.s-input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: #edf0f2;
+  pointer-events: none;
+  margin: 0.5rem 0 1rem 0;
+  border: 0.2rem solid transparent;
+}
+
+.s-button {
+  display: flex;
+}
+
+.s-btn {
+  width: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: 0.1rem solid transparent;
+}
+
+.s-delete {
+  color: #0f1b33;
+  margin-right: 1%;
+  background: #e6ebf1;
+}
+
+.s-delete:hover {
+  color: #fff;
+  background: rgb(255, 15, 15);
+}
+
+.s-sync {
+  color: white;
+  margin-left: 1%;
+  background: #1a66ff;
+}
+
+.s-sync:hover {
+  background: #0e52da;
+}
+
+.s-btn > * {
+  margin: 0 0.3rem;
+}
+
+@media screen and (max-width: 992px) {
+  .s-info {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .s-info {
+    width: 90%;
+  }
+}

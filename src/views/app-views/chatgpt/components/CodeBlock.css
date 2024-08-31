@@ -1,0 +1,101 @@
+.code-block .code-block-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343540;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+  height: 32px;
+  padding: 4px 17px;
+}
+
+.code-block .codeStyle {
+  padding: 16px 20px !important;
+  border-radius: 0px 0px 5px 5px !important;
+  border: none !important;
+  margin: 0px !important;
+  background-color: black !important;
+}
+
+.omni-feature-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.omni-feature-text {
+  color: #455560;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.trial-card {
+  display: flex;
+  width: 645px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 67px;
+  align-self: stretch;
+  border-radius: 5px;
+  border: 1px solid #ccd6de;
+  background: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(215, 217, 225, 0.7);
+  justify-content: center;
+  margin-top: 24px;
+  flex-wrap: wrap;
+  column-gap: 27px;
+}
+@media (max-width: 630px) {
+  /* CSS rules for devices with a height of at least 800px */
+  .trial-card {
+    width: 320px !important;
+    padding: 10px !important;
+    height: 122px;
+  }
+}
+
+/* .trail-text {
+  color: #455560;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  /* 144.444% */
+/* }  */
+.btn-start-trail {
+  background: rgb(31, 199, 126);
+  color: rgb(255, 255, 255);
+  width: 130px;
+  height: 36px;
+  flex-shrink: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.omni-features_bullets {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  max-width: 450px;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 auto;
+  gap: 3.5rem;
+}
+
+/* For screens smaller than 630px */
+@media (max-width: 630px) {
+  .omni-features_bullets {
+    display: grid !important;
+    gap: 10px;
+    justify-content: center;
+  }
+}

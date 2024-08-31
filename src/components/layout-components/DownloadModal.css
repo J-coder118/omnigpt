@@ -1,0 +1,13 @@
+.input-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8.5px 16px;
+  height: 48px;
+  border: 1px solid #e6ebf1;
+  border-radius: 5px;
+}
+
+.btn-download {
+  width: 100%;
+}

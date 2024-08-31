@@ -1,0 +1,33 @@
+.billing-card {
+  background: #fafafb;
+  border: 1px solid #e7e7e9;
+  border-radius: 5px;
+  height: 300px;
+  width: 100%;
+  min-width: 290px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 25px;
+}
+
+.billing-card .billing-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.billing-card button {
+  background: #1fc77e;
+  border-radius: 5px;
+  width: 144px;
+  height: 46px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  margin-top: 20px;
+}

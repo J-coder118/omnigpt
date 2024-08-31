@@ -1,0 +1,7 @@
+export const INITIAL = "INITIAL";
+export const DEAL_PIPELINE = "DEAL_PIPELINE";
+export const CREATE_TASK = "CREATE_TASK";
+export const CREATE_NOTE = "CREATE_NOTE";
+export const FILES_AND_MEDIA = "FILES_AND_MEDIA";
+export const SEARCH_IN_CONVERSATION = "SEARCH_IN_CONVERSATION";
+export const NOTE_DETAIL = "NOTE_DETAIL";

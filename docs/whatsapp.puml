@@ -1,0 +1,24 @@
+@startuml
+actor User
+
+autonumber
+User --> WhatsAppAPI: Send message (Use Whatsapp app)
+WhatsAppAPI --> BackendServer: Forward message via webhook
+BackendServer --> BackendServer: Verify phone number
+
+alt phone number not exist in system
+    WhatsAppAPI <-- BackendServer: Response error
+    User <-- WhatsAppAPI: Response error
+else phone number exist in system
+    BackendServer --> BackendServer: Save message into Database
+    note left
+        Create new thread 
+        if phonenumber first time user system
+    end note
+    BackendServer --> BackendServer: Get messages of phone number in Database
+    BackendServer --> ChatGPT: Send messages for processing
+    BackendServer <-- ChatGPT: Return response
+    WhatsAppAPI <-- BackendServer: Send reponse
+    User <-- WhatsAppAPI: Deliver response
+end
+@enduml

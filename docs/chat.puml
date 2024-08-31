@@ -1,0 +1,23 @@
+@startuml
+actor User
+
+autonumber
+User --> Client_Browser: Open OmniGPT
+Client_Browser --> Client_Browser: Get messages from a thread if user select a thread
+User --> Client_Browser: Send message
+
+alt Create new thread
+    Client_Browser --> supabaseServer: Use supabaseClient insert new thread into DB
+    Client_Browser <-- supabaseServer: Thread created
+    Client_Browser --> Client_Browser: Set selected new thread created
+    Client_Browser --> supabaseServer: Use supabaseClient invoke function get title
+end
+    Client_Browser --> supabaseServer: Use supabaseClient save message into DB
+    Client_Browser --> Client_Browser: Prepare messages (Include: old messages and new message)
+    Client_Browser --> supabaseServer: Use SSE to listen server-side event (payload: messages)
+    supabaseServer --> OpenAI_API: Call chat/completions - model: gpt-3.5-turbo
+    supabaseServer <-- OpenAI_API: Response data
+    Client_Browser <-- supabaseServer: Response data
+    Client_Browser --> Client_Browser: Append response message into stream message
+    Client_Browser --> Client_Browser: Response [DONE] --> save message to messages
+@enduml

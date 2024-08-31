@@ -1,0 +1,9 @@
+@startuml
+actor User
+
+autonumber
+User --> OmniGPT_UI: Go to Billing pages
+OmniGPT_UI --> Stripe_Server: Access no code link (Register then pay money)
+OmniGPT_Server <-- Stripe_Server: Trigger OmniGPT webhook payment success/failure ???
+OmniGPT_Server --> Stripe_Server: Cronjob check payment ???
+@enduml

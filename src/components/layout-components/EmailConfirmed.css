@@ -1,0 +1,45 @@
+.email-confirmed {
+  font-family: "Poppins";
+  width: 592px !important;
+}
+
+.email-confirmed .ant-modal-body {
+  padding: 48px 26px;
+}
+
+.email-confirmed .image-email {
+  width: 80px;
+  margin-bottom: 26px;
+}
+
+.email-confirmed .title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  color: #0f1b33;
+  margin-bottom: 30px;
+}
+
+.email-confirmed .sub-title,
+.email-confirmed .explain {
+  font-weight: 400;
+  color: #0f1b33;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0f1b33;
+  padding: 0 20px;
+}
+
+.email-confirmed .btn-use-omnigpt,
+.email-confirmed .btn-connect-whatsapp {
+  width: 304px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.email-confirmed .btn-use-omnigpt,
+.email-confirmed .btn-use-omnigpt:hover {
+  margin-bottom: 18px;
+  color: #000000;
+  background: rgba(143, 159, 178, 0.5);
+}

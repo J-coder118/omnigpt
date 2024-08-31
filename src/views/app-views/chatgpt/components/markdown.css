@@ -1,0 +1,57 @@
+/* .markdown-body {
+  --color-fg-default: #24292f;
+} */
+
+/*.message-content-dark {
+  .markdown-body {
+    color-scheme: dark;
+    --color-fg-default: rgba(255, 255, 255, 0.85);
+    --color-canvas-default: #0d1117;
+    --color-canvas-subtle: #161b22;
+    --color-border-default: rgba(110,118,129,0.4);
+  }
+  .markdown-body .highlight pre,
+  .markdown-body pre {
+    background-color: unset;
+  }
+  .markdown p {
+    color: var(--color-fg-default);
+  }
+  .markdown-body table tr:nth-child(even) {
+    background-color: #1C2230;
+    color: white;
+  }
+  .markdown-body table tr:nth-child(odd) {
+    background-color: transparent;
+  }
+  .markdown-body table th {
+    background-color: darkgrey;
+  }
+  .markdown-body table {
+    border-radius: 4px;
+  }
+}
+
+.message-content-light {
+  .markdown-body {
+    color-scheme: light;
+    --color-fg-default: #24292f;
+    --color-border-default: #c0c0c0;
+  }
+  .markdown p {
+    color: var(--color-fg-default);
+  }
+
+  .markdown-body table tr:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+  }
+  .markdown-body table tr:nth-child(even) {
+    background-color: transparent;
+  }
+  .markdown-body table th {
+    background-color: rgb(247, 247, 248);
+  }
+  .markdown-body table {
+    border-radius: 4px;
+  }
+}*/

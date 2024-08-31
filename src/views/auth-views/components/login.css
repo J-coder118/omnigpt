@@ -1,0 +1,37 @@
+.login-form {
+  font-family: "Poppins";
+  width: 80%;
+}
+
+.login-form .icon-mail {
+  color: #b8c1cc;
+}
+
+.login-form .describe {
+  margin-top: 16px;
+}
+
+.login-form .input-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8.5px 16px;
+  height: 48px;
+  border: 1px solid #e6ebf1;
+  border-radius: 5px;
+}
+
+.login-form .input-email .ant-input {
+  padding-left: 10px;
+}
+
+.login-form .btn-login {
+  background: #1fc77e;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  min-height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  font-style: normal;
+}

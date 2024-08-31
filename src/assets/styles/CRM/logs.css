@@ -1,0 +1,176 @@
+.l-main {
+  width: 100%;
+  border-top: 1px solid #e6ebf1;
+}
+
+.logs-container {
+  padding-bottom: 4%;
+}
+
+.space-0 {
+  margin: 0;
+  padding: 0;
+}
+
+.logs {
+  display: flex;
+  padding: 1.5% 0;
+  color: #8f9fb2;
+  border-bottom: 1px solid #f7f7f8;
+}
+
+.log-action {
+  width: 60% !important;
+}
+
+.log {
+  color: #0f1b33;
+  font-weight: 500;
+}
+
+.log-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 40% !important;
+}
+
+.log-info {
+  display: flex;
+  margin-right: 10%;
+  align-items: center;
+}
+
+.user-p {
+  width: 1.9rem;
+  height: 1.9rem;
+  margin-right: 3%;
+  border-radius: 50%;
+  background-color: #edf3f6;
+}
+
+.logger-names {
+  width: 60%;
+  display: flex;
+}
+
+.l-names {
+  color: #0f1b33;
+  font-weight: 500;
+  white-space: nowrap;
+  margin-top: 1.5% !important;
+}
+
+.log-date {
+  width: 40%;
+  white-space: nowrap;
+  justify-content: flex-end;
+}
+
+.l-export-btn {
+  bottom: 2%;
+  width: 10.2%;
+  right: 1%;
+  cursor: pointer;
+  position: fixed;
+  color: #0f1b33;
+  background: #e6ebf1;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+}
+
+.l-export-btn:hover {
+  right: 0.8%;
+  width: 10.4%;
+  padding: 0.3.5rem;
+  background: #cbced2;
+}
+
+.l-export-btn > * {
+  margin: 0 0.3rem;
+}
+
+@media screen and (max-width: 992px) {
+  .logs-container {
+    padding-bottom: 6%;
+  }
+
+  .logs {
+    font-size: 0.8rem;
+  }
+  .log-action {
+    width: 55% !important;
+  }
+
+  .log-info-container {
+    width: 45% !important;
+  }
+
+  .log-info {
+    margin-right: 10% !important;
+  }
+
+  .l-names {
+    margin-top: 2.2% !important;
+  }
+
+  .user-p {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .l-export-btn {
+    width: 16.5%;
+    right: 2%;
+  }
+
+  .l-export-btn:hover {
+    width: 16.9%;
+    right: 1.9%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logs {
+    font-size: 0.7rem;
+  }
+
+  .log-action {
+    width: 55%;
+  }
+
+  .log-info {
+    display: block;
+    margin-left: 4% !important;
+  }
+
+  .user-p {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+
+  .logger-names {
+    width: 100%;
+  }
+
+  .l-names {
+    margin-top: 2% !important;
+  }
+
+  .log-date {
+    width: 100%;
+    font-size: 0.83rem;
+    margin-top: 4% !important;
+  }
+
+  .l-export-btn {
+    width: 96%;
+    right: 2%;
+  }
+
+  .l-export-btn:hover {
+    width: 16.9%;
+    right: 3%;
+  }
+}

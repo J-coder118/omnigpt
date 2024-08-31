@@ -1,0 +1,20 @@
+@startuml
+actor User
+
+autonumber
+User --> Client_Browser: Open OmniGPT
+Client_Browser --> Client_Browser: Get messages from a thread if user select a thread
+User --> Client_Browser: User upload a file
+Client_Browser --> Client_Browser: Validate file then upload using supabaseClient
+Client_Browser <-- Client_Browser: Response file information
+Client_Browser --> Client_Browser: Using mammoth to read text in file from supabase storage
+
+alt Create new thread
+    Client_Browser --> supabaseServer: Use supabaseClient insert new thread into DB
+    Client_Browser <-- supabaseServer: Thread created
+    Client_Browser --> Client_Browser: Set selected new thread created
+end
+    Client_Browser --> supabaseServer: Use supabaseClient save [content file as a message] into DB
+    Client_Browser --> Client_Browser: Save [content file as a message] to messages
+
+@enduml

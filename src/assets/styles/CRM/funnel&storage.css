@@ -1,0 +1,108 @@
+.f-container {
+  display: flex;
+  margin-top: 15vh;
+  justify-content: center;
+}
+
+.f-info {
+  width: 50%;
+}
+
+.f-label {
+  font-weight: 500;
+}
+
+.f-select {
+  width: 100%;
+  display: block;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.f-select {
+  width: 100%;
+  display: block;
+  overflow-x: hidden;
+  border-radius: 0.3rem;
+  background-color: white;
+  padding: 0.5rem 10% 0.5rem 4%;
+  border: 0.1rem solid #cbd0d6;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 99%;
+  background-position-y: 0.3rem;
+}
+
+.f-edit {
+  color: #0f1b33;
+  background: #e6ebf1;
+  width: 100% !important;
+}
+
+.f-edit:hover {
+  background: #cbced2;
+}
+
+.f-edit > * {
+  margin: 0 0.3rem;
+}
+
+.f-button {
+  display: flex;
+}
+
+.f-btn {
+  width: 50%;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: 0.1rem solid transparent;
+}
+
+.f-cancel {
+  margin-right: 1%;
+  color: #0f1b33;
+  background: #e6ebf1;
+}
+
+.f-cancel:hover {
+  background: #cbced2;
+}
+
+.f-save {
+  margin-left: 1%;
+  color: #ffffff;
+  background: #3174f9;
+}
+
+.f-save:hover {
+  background: #1361ff;
+}
+
+.f-hidden {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .f-container {
+    margin-top: 10vh;
+  }
+
+  .f-info {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .f-container {
+    margin-top: 17vh;
+  }
+
+  .f-info {
+    width: 90%;
+  }
+}

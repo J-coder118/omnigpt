@@ -1,0 +1,17 @@
+{
+  "imports": {
+    "openai": "https://esm.sh/openai@3.1.0",
+    "std/server": "https://deno.land/std@0.177.0/http/server.ts",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2.7.1",
+    "postgres": "https://deno.land/x/postgres@v0.14.2/mod.ts",
+    "xhr_polyfill": "https://deno.land/x/xhr@0.3.0/mod.ts",
+    "stripe": "https://esm.sh/stripe@11.1.0?target=deno&no-check",
+    "date_fns": "https://unpkg.com/date-fns@2.29.3/esm//index.js",
+    "langchain" : "https://esm.sh/langchain",
+    "chains" : "https://esm.sh/langchain/chains",
+    "llms" : "https://esm.sh/langchain/llms/openai",
+    "text_splitter" : "https://esm.sh/langchain/text_splitter",
+    "langchain/": "https://esm.sh/langchain@0.0.92/",
+    "mammoth": "https://esm.sh/mammoth@1.6.0?target=es2022"
+  }
+}

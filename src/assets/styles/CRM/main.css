@@ -1,0 +1,120 @@
+.main {
+  padding: 10px 20px;
+}
+
+/* CRMs bar */
+.crm-container {
+  width: auto;
+  margin-top: 2%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.add-crm-btn {
+  display: flex;
+  cursor: pointer;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  border: 0.12rem solid #e6ebf1;
+}
+
+.add-crm-btn:hover {
+  color: black;
+  background-color: #edf0f2;
+}
+
+.space-0 {
+  margin: 0;
+  padding: 0;
+}
+
+.plus-icon {
+  padding: 0.3rem 0.3rem 0 0.2rem;
+}
+
+.crm-item-selected {
+  height: 3rem;
+  padding: 0.7rem;
+  font-weight: 600;
+  pointer-events: none;
+  border-radius: 0.3rem;
+  background-color: #edf0f2;
+  border-left: 0.2rem solid #1a66ff;
+}
+
+.crm-item {
+  height: 3rem;
+  padding: 0.7rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  border: 0.12rem solid #e6ebf1;
+}
+
+.crm-logo {
+  width: 3.5rem;
+  margin: -0.8rem 0 0 -0.2rem;
+}
+
+.crm-name {
+  color: #0f1b33;
+  font-size: 0.78rem;
+  margin-top: -0.6rem;
+}
+
+/* CRM options */
+
+.crm-options-container {
+  width: 100%;
+  margin-top: 2%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.crm-option {
+  cursor: pointer;
+  border-bottom: 0.2rem solid transparent;
+}
+
+.crm-option-selected {
+  padding: 0.5rem 0;
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 0.2rem solid #0f1b33;
+}
+
+.crm-info-container {
+  width: 100%;
+  height: 55.5vh;
+  overflow: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.2rem;
+  height: 0.2rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b8c1cc;
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media screen and (min-width: 800px) {
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+}
